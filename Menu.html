@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website | CodingNepal</title>
+    <!-- Linking Font Awesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!--Header / Navbar -->
+    <header>
+        <nav class="navbar">
+                <a href="#" class="nav-logo">  
+                    <h1 class="logo-text"> ☕️ Coffee </h1>
+                </a>
+                <ul class="nav-menu">
+                    <button id="menu-close-button" class="fas fa-times"></button>
+                    <li class="nav-item">
+                        <a href="#Accueil" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#À-propos" class="nav-link">À-propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Galerie" class="nav-link">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Contact-Nous" class="nav-link">Contacter-Nous </a>
+                    </li>
+                </ul>
+                <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <button class="menu-btn" onclick="openMenu()">☰</button>
+        <section class="hero-section" id="Accueil">
+            <div class="section-content">
+                <div class="hero-detaills">
+                <h2 class="hero-details">Le meilleur café</h2>
+                <h3 class="subtitle">Faites de votre journée un moment exceptionnel grâce à notre café d’exception !</h3>
+                <p class="description">Bienvenue dans notre univers du café, où chaque grain raconte une histoire et chaque tasse éveille le plaisir.</p>
+            <div class="buttons">
+                <a href="#" class="button order-now">Commandez dès maintenant</a>
+                <a href="#" class="button Contact-us">Contactez-nous</a>
+            </div>   
+            </div>
+            <div class="hero-image">
+                <img src="coffee-hero-section.png" alt="Hero">     
+</div>
+        </section>
+        <!--about section  -->
+        <section class="about-section" id="À-propos">
+            <div class="section-content"></div>
+            <div class="about-image-wrapper">
+                <img src="about-us.jpg" alt="About" class="about-image">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">À propos</h2>
+                <p class="text">À Coffee House, situé à Berrechid, au Maroc, nous avons à cœur d’être une destination incontournable pour les passionnés de café et les amateurs de belles conversations.
+Nous nous engageons à offrir une expérience café exceptionnelle, dans une ambiance chaleureuse et accueillante, où chaque détail est pensé pour votre confort.
+Ici, nos invités peuvent se détendre, se ressourcer et savourer chaque instant, tout en profitant d’un café de qualité préparé avec passion.
+</p>
+<div class="social-link-list">
+    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a> 
+    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+</div>
+            </div>
+        </section>
+        <!--Menu section -->
+        <section class="menu-section" id="Menu">
+            <h2 class="section-title">Notre Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                    <img src="cafee-menu.png" alt="boissons chaudes" class="menu-image">
+                    <h2 class="name">boissons chaudes</h2>
+                    <p class="text">Une large gamme de cafés chauds fumants pour vous rendre frais et léger.</p>
+                    </li>
+                    <li class="menu-item">
+                    <img src="cold-coffe.png" alt="boissons froides" class="menu-image">
+                    <h2 class="name">boissons froits</h2>
+                    <p class="text">Une large gamme de cafés froides fumants pour vous rendre frais et léger.</p>
+                    </li>
+                      <li class="menu-item">
+                    <img src="Rafraîchissements.png" alt="rafraîchissement" class="menu-image">
+                    <h2 class="name">rafraîchissement</h2>
+                    <p class="text">Fruits et boissons glacées pour une sensation de fraîcheur.</p>
+                    </li>
+                      <li class="menu-item">
+                    <img src="combos-special.png" alt="Combos spéciaux" class="menu-image">
+                    <h2 class="name">Combos spéciaux</h2>
+                    <p class="text">les meilleures associations de plats et de boissons.</p>
+                    </li>
+                     <li class="menu-item">
+                    <img src="desserts.png" alt="desserts" class="menu-image">
+                    <h2 class="name">Dessert</h2>
+                    <p class="text">Comblez votre palais et laissez-vous emporter par une expérience gastronomique.</p>
+                    </li> 
+                     <li class="menu-item">
+                    <img src="burgers.png" alt="burgers et frites" class="menu-image">
+                    <h2 class="name">Burgers et Frites</h2>
+                    <p class="text">Des bouchées rapides pour combler une petite faim.</p>
+                    </li> 
+                    
+                </ul>
+            </div>
+        </section>
+        <!--Gallery section -->
+        <section class="gallery-section" id="Galerie">
+            <h2 class="section-title">Galerie</h2>
+            <div class="gallery-section">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!Contact section -->
+        <section class="contact-section" id="Contact-Nous">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>N° 25, Avenue Mohammed V, Quartier Al Amal, Berrechid 26100, Maroc</p>
+                    </li>
+                      <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>Taaliikram@gmail.com</p>
+                    </li>
+                      <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+212 6 44 29 83 49</p>
+                    </li>
+                      <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Lundi-Dimanche: 8:30 AM - 00:00 PM</p>
+                    </li>
+                      <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.coffeeshopwebsite.com</p>
+                    </li>
+                </ul>
+              <form action="#" class="contact-form">
+    <input type="text" placeholder="Nom & Prénom" class="form-input" required>
+
+    <input type="email" placeholder="Email" class="form-input" required>
+
+    <textarea placeholder="Message" class="form-input" required></textarea>
+
+    <button type="submit" class="submit-button">Envoyer</button>
+</form>
+
+            </div>
+        </section>
+
+        <footer class="contact-section">
+            <div class="section-content">
+                <p class="copyright-text">©2026 Cofee Shop</p>
+                <div class="social-link-list">
+    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a> 
+    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+        <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+        </p>
+            </div>
+
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
